@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff223f7-4f72-4a11-a315-52a0e441c4fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToOpenLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/VerifyLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/VerifyEmailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToRegisterAnAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToOpenRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToOpenRegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RegistrationPageTests/VerifyRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/VerifyRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToOpenLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToOpenLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/VerifyLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/VerifyLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/VerifyRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/VerifyRegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/RegistrationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToOpenRegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToOpenRegistrationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/RegistrationPageTests/VerifyRegistrationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToOpenLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToOpenLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/VerifyLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/VerifyLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/VerifyRegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/VerifyRegistrationPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +62,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\SmartClickTestProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyLoginPage">
-    <configuration name="BaseTest.openGoogleComInCromeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SmartClickTestProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BaseTest" />
-      <option name="METHOD_NAME" value="openGoogleComInCromeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Tests">
     <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SmartClickTestProject" />
       <extension name="coverage">
@@ -105,6 +96,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerifyLoginPage.loginWidgetIsAvailableTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SmartClickTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.VerifyLoginPage" />
+      <option name="METHOD_NAME" value="loginWidgetIsAvailableTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyLoginPage.loginWithEmptyCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SmartClickTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.VerifyLoginPage" />
+      <option name="METHOD_NAME" value="loginWithEmptyCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerifyRegistrationPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SmartClickTestProject" />
       <extension name="coverage">
@@ -122,31 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyRegistrationPage.regWidgetIsAvailableTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SmartClickTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.VerifyRegistrationPage" />
-      <option name="METHOD_NAME" value="regWidgetIsAvailableTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VerifyLoginPage" />
         <item itemvalue="TestNG.Tests" />
-        <item itemvalue="TestNG.VerifyRegistrationPage.regWidgetIsAvailableTest1" />
         <item itemvalue="TestNG.VerifyRegistrationPage" />
-        <item itemvalue="TestNG.BaseTest.openGoogleComInCromeTest" />
+        <item itemvalue="TestNG.VerifyLoginPage" />
+        <item itemvalue="TestNG.VerifyLoginPage.loginWidgetIsAvailableTest" />
+        <item itemvalue="TestNG.VerifyLoginPage.loginWithEmptyCredentials" />
       </list>
     </recent_temporary>
   </component>
@@ -192,25 +201,45 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1628429155210" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1628505223508">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1628519232408">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628505223508" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1628505223508">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1628519232408">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628505223508" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1628505223508">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1628519232408">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628505223508" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1628505223508">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1628519232408">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628505223508" />
-    <state x="465" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1628499051185">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1628515471455">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1628499051185" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628515471455" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1628515471455">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1628515471455" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1628515471455">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1628515471455" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1628515471455">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1628515471455" />
+    <state x="465" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1628510133369">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1628510133369" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1628509799273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1628509799273" />
   </component>
 </project>

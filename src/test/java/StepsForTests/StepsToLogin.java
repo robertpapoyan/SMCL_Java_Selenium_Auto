@@ -4,7 +4,7 @@ import PageObjects.LoginPage;
 
 
 public class StepsToLogin {
-    LoginPage loginPage = new LoginPage();
+    private LoginPage loginPage = new LoginPage();
 
     public void enterCorrectCredentials() throws InterruptedException {
         loginPage.loginElementEmailFieldClick();

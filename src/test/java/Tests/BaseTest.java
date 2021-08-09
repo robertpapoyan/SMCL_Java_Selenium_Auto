@@ -22,6 +22,7 @@ public  abstract class BaseTest{
         driver = new ChromeDriver();
 
         driver.get("https://qa.smclk.net/");
+        driver.manage().window().maximize();
 
         Thread.sleep(3000);
     }

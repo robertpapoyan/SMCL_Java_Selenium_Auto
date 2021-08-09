@@ -48,4 +48,8 @@ public class RegistrationPage extends BasePage {
     public void regElementConfirmCheckboxClick(){
         regElementConfirmCheckbox.click();
     }
+
+    public void regElementButtonClick(){
+        regElementRegButton.click();
+    }
 }

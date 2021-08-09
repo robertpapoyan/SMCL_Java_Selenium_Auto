@@ -13,7 +13,7 @@ public class StepsToRegisterAnAccount {
 
 
         String randNum = Integer.toString(random.nextInt());
-        while(randNum.contains("-")){
+        while (randNum.contains("-")) {
             randNum = Integer.toString(random.nextInt());
         }
 
@@ -21,18 +21,20 @@ public class StepsToRegisterAnAccount {
         Random r = new Random();
         String alphabet = "123xyz";
 
-        regPage.regElementNameField.sendKeys("robertss"+randNum);
+        regPage.regElementNameField.sendKeys("robertss" + randNum);
 
         randNum = Integer.toString(random.nextInt());
 
-        while(randNum.contains("-")){
+        while (randNum.contains("-")) {
             randNum = Integer.toString(random.nextInt());
         }
 
         System.out.println(randNum);
 
         regPage.regElementEmailFieldClick();
-        regPage.regElementEmailField.sendKeys(alphabet.charAt(r.nextInt(alphabet.length()))+"asd@"+randNum+alphabet.charAt(r.nextInt(alphabet.length()))+".com"+alphabet.charAt(r.nextInt(alphabet.length())));
+        regPage.regElementEmailField.sendKeys(alphabet.charAt(r.nextInt(alphabet.length())) +
+                "asd@" + randNum + alphabet.charAt(r.nextInt(alphabet.length())) +
+                ".com" + alphabet.charAt(r.nextInt(alphabet.length())));
 
         regPage.regElementPasswordFieldClick();
         regPage.regElementPasswordField.sendKeys("asdasd123");

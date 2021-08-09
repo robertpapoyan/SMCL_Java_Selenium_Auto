@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff223f7-4f72-4a11-a315-52a0e441c4fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjects/VerifyEmailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToRegisterAnAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToOpenLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToOpenLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/VerifyLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/VerifyLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/VerifyRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/VerifyRegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/RegistrationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToOpenLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepsForTests/StepsToOpenLoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/VerifyLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/VerifyLoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/VerifyRegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/VerifyRegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToRegisterAnAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsForTests/StepsToRegisterAnAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,22 +186,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1628429155210" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1628519232408">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1628524439833">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1628519232408">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628524439833" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1628524439833">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1628519232408">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628524439833" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1628524439833">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1628519232408">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628524439833" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1628524439833">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628519232408" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628524439833" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1628515471455">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

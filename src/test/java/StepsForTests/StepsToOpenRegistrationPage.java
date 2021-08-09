@@ -6,6 +6,7 @@ public class StepsToOpenRegistrationPage {
     private MainPage mainPage = new MainPage();
 
     public void openRegistrationPage(){
+
         mainPage.goToRegistrationPage();
     }
 }

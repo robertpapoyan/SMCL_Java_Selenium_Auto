@@ -20,6 +20,15 @@ public class RegistrationPage extends BasePage {
     @FindBy(id = "password_confirmation")
     public WebElement regElementConfirmPasswordField;
 
+    @FindBy(id = "terms")
+    public WebElement regElementConfirmCheckbox;
+
+    @FindBy(tagName = "Already registered?")
+    public WebElement regElementAlreadyRegistered;
+
+    @FindBy(css = ".inline-flex")
+    public WebElement regElementRegButton;
+
     public void regElementNameFieldClick(){
         regElementNameField.click();
     }
@@ -34,5 +43,9 @@ public class RegistrationPage extends BasePage {
 
     public void regElementConfirmPasswordFieldClick(){
         regElementConfirmPasswordField.click();
+    }
+
+    public void regElementConfirmCheckboxClick(){
+        regElementConfirmCheckbox.click();
     }
 }

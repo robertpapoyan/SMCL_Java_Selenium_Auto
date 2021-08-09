@@ -10,10 +10,10 @@ public class MainPage extends BasePage {
         super();
     }
 
-    @FindBy(xpath = "/html/body/div/div[1]/a[1]")
+    @FindBy(css = "a.text-sm:nth-child(1)")
     private WebElement loginPageBtn;
 
-    @FindBy(xpath = "/html/body/div/div[1]/a[2]")
+    @FindBy(css = "a.ml-4")
     private WebElement registrationPageBtn;
 
 
